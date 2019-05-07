@@ -27,7 +27,7 @@ The zip file contains two files:
 <b>How the Source Classification Codes were determined for Plots 3-6:</b>
 <p>This snippet of code is only for filtering on Coal Combustion (Plot 4).</p>
 
-```
+``` {R}
 # Levels go from generic (SCC.Level.One) to specific (SCC.Level.Four)
 # data only exists for "coal" in the SCC.Level.Four and SCC.Level.Three and EI.Sector
 # After analysis, Short.Name by "comb" and SCC.Level.Four by "coal" 
