@@ -24,8 +24,8 @@ The zip file contains two files:
 
 2. Source Classification Code Table (Source_Classification_Code.rds): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
 
-<b>How the Source Classification Codes were determined for Plots 3-6:</b>
-<p>This snippet of code is only for filtering on Coal Combustion (Plot 4).</p>
+<b> How the Source Classification Codes were determined for Plots 3-6:</b>
+<p>   This snippet of code is only for filtering on Coal Combustion (Plot 4).</p>
 
 ```
 # Levels go from generic (SCC.Level.One) to specific (SCC.Level.Four)
