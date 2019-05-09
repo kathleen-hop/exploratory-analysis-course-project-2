@@ -1,8 +1,8 @@
 library(ggplot2)
 
 ## Move files to directory to read data
-#NEI <- readRDS("summarySCC_PM25.rds")
-#SCC <- readRDS("Source_Classification_Code.rds")
+NEI <- readRDS("summarySCC_PM25.rds")
+SCC <- readRDS("Source_Classification_Code.rds")
 
 # 5 How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
 # unique(SCC[grepl("vehicle|road",SCC$EI.Sector, ignore.case=TRUE),]$EI.Sector)
